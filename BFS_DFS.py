@@ -126,4 +126,3 @@ class Grafo:
             return -1  # No se encontró un camino al objetivo
         else:
             return distancia[objetivo]
-    
