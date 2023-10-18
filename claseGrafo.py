@@ -3,8 +3,6 @@
 #Contact: arnoldwork20@gmail.com
 #License: GNU/GPL 
 
-from collections import deque
-
 class Grafo:
     def __init__(self, n):
         self.n = [set() for i in range(n)]
